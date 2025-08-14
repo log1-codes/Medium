@@ -17,8 +17,8 @@ app.put('/api/v1/blog', (c) => {
   return c.text('Hello Hono!')
 })
 
-app.get('/api/v1/blog/blog', (c) => {
-  return c.text('Hello Hono!')
+app.get('/api/v1/blog', (c) => {
+  return c.text('Hello Hono3232!')
 })
 
 app.get('/', (c) => {

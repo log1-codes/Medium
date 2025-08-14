@@ -1,0 +1,52 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "project name ",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-08-14",
+
+  // Optional: Enable if you need Node.js compatibility
+  // "compatibility_flags": [
+  //   "nodejs_compat"
+  // ],
+
+  // Environment variables
+  "vars": {
+    "DATABASE_URL": "prisma+postgres://accelerate.prisma-data.net/**************************************************8s"
+  },
+
+  // Uncomment and configure if using KV namespaces
+  // "kv_namespaces": [
+  //   {
+  //     "binding": "MY_KV_NAMESPACE",
+  //     "id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  //   }
+  // ],
+
+  // Uncomment and configure if using R2 buckets
+  // "r2_buckets": [
+  //   {
+  //     "binding": "MY_BUCKET",
+  //     "bucket_name": "my-bucket"
+  //   }
+  // ],
+
+  // Uncomment and configure if using D1 database
+  // "d1_databases": [
+  //   {
+  //     "binding": "MY_DB",
+  //     "database_name": "my-database",
+  //     "database_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+  //   }
+  // ],
+
+  // Uncomment if using AI features
+  // "ai": {
+  //   "binding": "AI"
+  // },
+
+  // Uncomment to enable observability/tracing
+  // "observability": {
+  //   "enabled": true,
+  //   "head_sampling_rate": 1
+  // }
+}
