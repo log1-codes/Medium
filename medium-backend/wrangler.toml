@@ -1,0 +1,7 @@
+name = "medium-backend"
+main = "src/index.ts"
+compatibility_date = "2025-08-14"
+
+[vars]
+DATABASE_URL = ""
+JWT_SECRET = "jwt-secret-key"
